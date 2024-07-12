@@ -1,0 +1,110 @@
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 6%;
+    /* background-color: #FCA311; */
+}
+
+.arrow-icon {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    top: 35%;
+    left: 30%; 
+    font-size: 200px; 
+    color: #f7921e2f; 
+    transform: rotate(-30deg); 
+    z-index: -1; 
+  }
+
+.introduction{
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+
+.greetings{
+    color: #FCA311;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 20px;
+    /* background-color: brown; */
+    width: 40%;
+}
+
+.names{
+    margin-top: 3%;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.title{
+    margin-top: 3%;
+    margin-left: 20px;
+    font-size: 45px;
+    color: #FCA311;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+
+.other-roles{
+    margin-top: 3%;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 20px;
+    height: auto;
+    width: 40%;
+    gap: 20px;
+}
+
+.my-resume{
+    /* background-color: #FCA311; */
+    border: 1px solid #FCA311;
+    border-radius: 20px;
+    color: #000;
+    padding: 7px;
+    font-size: 22px;
+    width: 150px;
+    text-align: center;
+}
+
+.hire-me{
+    /* background-color: #FCA311; */
+    border: 2px solid #FCA311;
+    border-radius: 20px;
+    color: #000;
+    padding: 7px;
+    font-size: 25px;
+    width: 130px;
+    text-align: center;
+}
+
+.profile{
+    width: 40%; 
+    height: 600px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  
+}

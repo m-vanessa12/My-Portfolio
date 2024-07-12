@@ -1,0 +1,137 @@
+.my-contact{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px  solid #f7921e48; 
+    background-color: #fff;
+    
+
+}
+
+.contact-title{
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5%;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    /* background-color: aqua;  */
+}
+
+.contact-content{
+    margin-top: 10px;
+    font-size: 22px;
+    width: 45%;
+    height: auto;
+    padding: 5px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.contact-info{
+    margin-top: 20px;
+    width: 80%;
+    height: 400px;
+    /* background-color: #ccc; */
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info1{
+    width: 32%;
+    height: 400px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact-details{
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #fca21159;
+    font-size: 20px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #0000009d;
+}
+
+
+.contact-form{
+    /* background-color: rgb(145, 255, 0); */
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-field{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    height: auto;
+    width: 75%;
+    /* background-color: aqua; */
+    border: 1px solid #fca21159;;
+    border-radius: 7px;
+}
+
+.inputs-field input {
+    margin-left: 20px;
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.inputs-field textarea{
+    margin-left: 20px;
+    width: 90%;
+    height: 145px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.inputs-submit{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: auto;
+    width: 30%;
+    /* background-color: #11fc86; */
+    border: 1px solid #fca21159;;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn{
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #FCA311;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.inputs-submit:hover{
+    background-color: #000;
+
+}
+
+.btn:hover{
+    background-color: #000;
+}

@@ -1,0 +1,78 @@
+.navigation-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #fca21167;;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo{
+    width:20%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.logo h2{
+    color: #000;
+    font-size: 25px;
+}
+
+.logo h1{
+    color: #FCA311;
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+.menu{
+    /* background-color: aqua; */
+    width: 60%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.menu ul{
+    margin-top: 20px;
+    margin-left: 30px;
+    /* background-color: blueviolet; */
+    
+}
+
+.menu li{
+    display: inline;
+    margin-left: 35px;
+    padding: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.menu a:hover{
+    color: #FCA311;
+    font-weight: 600;
+}
+
+.resume{
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    background-color: #FCA311;
+    cursor: pointer;
+}
+
+.resume:hover{
+    background-color: #000;
+    color: #fff;
+}
