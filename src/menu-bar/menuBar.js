@@ -16,7 +16,10 @@ const MenuBar = () => {
                     <li><a href="#Project">Project</a></li>
                     <li><a href="#Experience">Experience</a></li>        
                     <li><a href="#Contact">Contact</a></li>
-                    <button className='resume'>Resume</button>
+                    <a href="https://drive.google.com/file/d/1qM8Q4Zpn01gljaRhVR27ogXbmk-UBZ6L/view?usp=sharing/view?usp=sharing" target="_blank">
+                        <button className='resume'>Resume</button>
+                    </a>
+
                 </ul>
             </div>
 

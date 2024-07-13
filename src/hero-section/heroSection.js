@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import './hero.css';
 import profile from '../img/profile png.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,7 +15,12 @@ const HeroSection = () => {
                 <div className="other-roles">Front-End Developer/Graphic Designer</div>
                 <div className="more">
                     <div className="my-resume">Resume</div>
-                    <div className="hire-me">Hire-me</div>
+
+                    <Link to="#contact" smooth className="hire-me">
+                        Hire-me
+                    </Link>
+
+                    
                 </div>
             </div>
 

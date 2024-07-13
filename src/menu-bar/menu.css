@@ -61,11 +61,11 @@
 
 .resume{
     margin-left: 20px;
-    width: 150px;
+    width: 130px;
     height: auto;
     padding: 5px;
     font-size: 20px;
-    border-radius: 7px;
+    border-radius: 20px;
     border: none;
     color: #fff;
     background-color: #FCA311;
@@ -73,6 +73,7 @@
 }
 
 .resume:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #FCA311;
+    border: 1px solid #FCA311;
 }

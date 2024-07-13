@@ -5,7 +5,7 @@
     flex-direction: row;
     position: relative;
     padding-top: 6%;
-    background-color: #FCA311;
+    /* background-color: #FCA311; */
 }
 
 .arrow-icon {
@@ -77,20 +77,38 @@
     border-radius: 20px;
     color: #000;
     padding: 7px;
-    font-size: 22px;
+    font-size: 20px;
     width: 150px;
     text-align: center;
 }
 
+.my-resume:hover{
+    cursor: pointer;
+    background-color: #FCA311;
+    color: #fff;
+}
+
 .hire-me{
     /* background-color: #FCA311; */
-    border: 2px solid #FCA311;
+    border: 1px solid #FCA311;
     border-radius: 20px;
     color: #000;
     padding: 7px;
-    font-size: 25px;
+    font-size: 20px;
     width: 130px;
     text-align: center;
+    text-decoration: none;
+}
+
+.hire-me a, .hire-me a:visited {
+    text-decoration: none;  
+    color: inherit; 
+}
+
+.hire-me:hover{
+    background-color: #FCA311;
+    border: none;
+    color: #fff;
 }
 
 .profile{

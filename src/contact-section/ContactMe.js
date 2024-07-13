@@ -6,7 +6,7 @@ import { faMapMarker} from '@fortawesome/free-solid-svg-icons';
 
 const GetInTouch = () => {
     return ( 
-        <div className="my-contact">
+        <div className="my-contact" id='contact'>
             <div className="contact-title">Contact</div>
             <div className="contact-content">Want to work together or you got any idea to develop your dream? 
             contact me by filling out the form.  I will get back to you ASAP</div>
