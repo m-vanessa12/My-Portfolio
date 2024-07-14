@@ -38,12 +38,14 @@
     margin-top: 20px;
     /* margin-left: 20px; */
     background-color: blueviolet;
+    padding: 0;
     width: calc(100%-60px);
+    list-style-type: none;
     
 }
 
 .menu li{
-    display: inline;
+    display: inline-block;
     margin-left: 35px;
     padding: 5px;
 }
