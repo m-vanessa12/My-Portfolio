@@ -71,6 +71,10 @@
     gap: 20px;
 }
 
+.more a{
+    text-decoration: none;
+}
+
 .my-resume{
     /* background-color: #FCA311; */
     border: 1px solid #FCA311;

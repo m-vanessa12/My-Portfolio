@@ -14,7 +14,10 @@ const HeroSection = () => {
                 <div className="title">UI/UX designer</div>
                 <div className="other-roles">Front-End Developer/Graphic Designer</div>
                 <div className="more">
-                    <div className="my-resume">Resume</div>
+                    
+                    <a href="https://drive.google.com/file/d/1qM8Q4Zpn01gljaRhVR27ogXbmk-UBZ6L/view?usp=sharing/view?usp=sharing" target="_blank">
+                       <div className="my-resume">Resume</div>
+                    </a>
 
                     <Link to="#contact" smooth className="hire-me">
                         Hire-me

@@ -110,7 +110,7 @@
     width: 30%;
     /* background-color: #11fc86; */
     border: 1px solid #fca21159;;
-    border-radius: 7px;
+    border-radius: 20px;
     cursor: pointer;
     border: none;
 
@@ -124,7 +124,7 @@
     background-color: #FCA311;
     font-size: 22px;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 .inputs-submit:hover{
