@@ -13,7 +13,10 @@ const GetInTouch = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_USER_ID);
+        // console.log(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_USER_ID);
+        console.log("Service ID:", process.env.REACT_APP_SERVICE_ID);
+        console.log("Template ID:", process.env.REACT_APP_TEMPLATE_ID);
+        console.log("Public Key:", process.env.REACT_APP_USER_ID);
 
     
         emailjs.sendForm(
