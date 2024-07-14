@@ -30,15 +30,24 @@ const AboutMe = () => {
                             in activities that matters to their lives like decision making meetings etc.</div>
                     </div>
                     <div className="social-media">
+
                         <div className="my-socials">
+                            <a href="mailto:your.email@example.com">
                            <FontAwesomeIcon icon={faEnvelope} style={{ width: '30px', height: '35px', padding: '10px', color: '#FCA311'}} />
+                           </a>
                         </div>
+
+
                         <div className="my-socials">
+                            <a href="https://www.linkedin.com/in/vanessa-mukamanzi-140801231/" target='_blank'>
                            <FontAwesomeIcon icon={ faLinkedin} style={{ width: '30px', height: '32px', padding: '10px', color: '#FCA311'}} />
+                           </a>
                         </div>
                         
                         <div className="my-socials">
+                            <a href="" target='_blank'>
                            <FontAwesomeIcon icon={ faInstagram} style={{ width: '30px', height: '32px', padding: '10px', color: '#FCA311'}} />
+                           </a>
                         </div>
 
                     </div>
