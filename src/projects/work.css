@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 5px;
+    /* padding: 5px; */
     background-color: #f7f7f7;
     align-items: center;
 }

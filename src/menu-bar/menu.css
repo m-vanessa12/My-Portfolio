@@ -36,7 +36,7 @@
 
 .menu ul{
     margin-top: 20px;
-    margin-left: 65px;
+    margin-left: 30px;
     /* background-color: blueviolet; */
     
 }
@@ -59,7 +59,7 @@
     font-weight: 600;
 }
 
-/* .resume{
+.resume{
     margin-left: 20px;
     width: 130px;
     height: auto;
@@ -76,4 +76,4 @@
     background-color: #fff;
     color: #FCA311;
     border: 1px solid #FCA311;
-} */
+}
