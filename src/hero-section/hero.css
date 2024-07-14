@@ -56,8 +56,10 @@
 .other-roles{
     margin-top: 3%;
     margin-left: 20px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
+    background-color: #FCA311;
+    width: 100%;
 
 }
 
