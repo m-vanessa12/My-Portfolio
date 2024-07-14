@@ -28,24 +28,21 @@
 }
 
 .menu{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 60%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 .menu ul{
     margin-top: 20px;
-    /* margin-left: 20px; */
-    background-color: blueviolet;
-    padding: 0;
-    width: calc(100%-60px);
-    list-style-type: none;
+    margin-left: 40px;
+    /* background-color: blueviolet; */
     
 }
 
 .menu li{
-    display: inline-block;
+    display: inline;
     margin-left: 35px;
     padding: 5px;
 }
@@ -62,7 +59,7 @@
     font-weight: 600;
 }
 
-.resume{
+/* .resume{
     margin-left: 20px;
     width: 130px;
     height: auto;
@@ -79,4 +76,4 @@
     background-color: #fff;
     color: #FCA311;
     border: 1px solid #FCA311;
-}
+} */
