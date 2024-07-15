@@ -6,6 +6,7 @@ import AboutMe from "../about-me/AboutMe";
 import Skills from "../skills/MySkills";
 import Projects from "../projects/MyWork";
 import Footer from "../footer/PageFooter";
+import Experience from "../experience/Experience";
 
 
 const Portfolio = () => {
@@ -16,6 +17,7 @@ const Portfolio = () => {
             <AboutMe />
             <Skills />
             <Projects />
+            < Experience />
             <GetInTouch />
             <Footer />
             

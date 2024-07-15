@@ -8,6 +8,7 @@ import AboutMe from './about-me/AboutMe';
 import Skills from './skills/MySkills';
 import Projects from './projects/MyWork';
 import Footer from './footer/PageFooter';
+import Experience from './experience/Experience';
 
 function App(){
 
@@ -23,6 +24,8 @@ function App(){
         <Route path="/" element={<Skills/>} />
         <Route path="/" element={<Projects/>} />
         <Route path="/" element={<Footer/>} />
+        <Route path="/" element={<Experience/>} />
+        
       </Routes>
     </Router>
 

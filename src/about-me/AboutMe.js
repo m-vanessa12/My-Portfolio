@@ -33,20 +33,20 @@ const AboutMe = () => {
 
                         <div className="my-socials">
                             <a href="mailto:your.email@example.com">
-                           <FontAwesomeIcon icon={faEnvelope} style={{ width: '30px', height: '35px', padding: '10px', color: '#FCA311'}} />
+                           <FontAwesomeIcon icon={faEnvelope} style={{ width: '25px', height: '35px', padding: '10px', color: '#FCA311'}} />
                            </a>
                         </div>
 
 
                         <div className="my-socials">
                             <a href="https://www.linkedin.com/in/vanessa-mukamanzi-140801231/" target='_blank'>
-                           <FontAwesomeIcon icon={ faLinkedin} style={{ width: '30px', height: '32px', padding: '10px', color: '#FCA311'}} />
+                           <FontAwesomeIcon icon={ faLinkedin} style={{ width: '25px', height: '32px', padding: '10px', color: '#FCA311'}} />
                            </a>
                         </div>
                         
                         <div className="my-socials">
                             <a href="" target='_blank'>
-                           <FontAwesomeIcon icon={ faInstagram} style={{ width: '30px', height: '32px', padding: '10px', color: '#FCA311'}} />
+                           <FontAwesomeIcon icon={ faInstagram} style={{ width: '25px', height: '32px', padding: '10px', color: '#FCA311'}} />
                            </a>
                         </div>
 
