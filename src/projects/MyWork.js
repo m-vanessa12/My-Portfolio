@@ -5,7 +5,7 @@ import diabetes  from '../img/diabetes1.png';
 
 const Projects = () => {
     return ( 
-        <div className="project">
+        <div className="project" id='project'>
             <div className="work-title">Portfolio</div>
             <div className="work-subtitle">Get to access my latest project</div>
             <div className="work-display">

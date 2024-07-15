@@ -8,7 +8,7 @@ import { faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
     return ( 
-        <div className="about-me">
+        <div className="about-me" id='about'>
 
             <div className="about-title">About Me</div>
             <div className="about-subtitle">Get to know me better. There is all about me</div>

@@ -6,7 +6,7 @@ import { faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 const HeroSection = () => {
     return ( 
-        <div className="hero-section">
+        <div className="hero-section" id='home'>
             <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />
             <div className="introduction">
                 <div className="greetings">Hi, I am</div>
