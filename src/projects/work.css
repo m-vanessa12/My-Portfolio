@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     padding-bottom: 25px;
-    background-color: #f7f7f7;
+    background-color: #fff;
     align-items: center;
 
 }
@@ -32,68 +32,82 @@
 .work-display{
     width: 90%;
     height: auto;
-    /* background-color: bisque; */
-    margin-top: 20px;
-    padding: 5px;
+    margin-top: 5%  auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     gap: 20px;
+    padding-bottom: 10px;
 }
 
 .work-done{
-    width: 30%;
-    height: auto;
-    background-color: #fff ;
-    border-radius: 7px;
-    padding-bottom: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    overflow: hidden;
-    transition: background-color 0.3s ease;
+     flex: 1;
+     height: auto;
+     overflow: hidden;
+     background-color: #FFF;
+     margin-left: 7%;
 }
 
-.project-image-container{
+.work-done img{
     width: 100%;
-    height: 100%;
-    /* background-color: #000; */
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    object-fit: cover;
 }
 
-.project-image-container img{
-        width: 100%;
-        height: 100%; 
-        object-fit: cover; 
+.work-description{  
+    flex: 1.5;
+    padding: 10px;
+    background-color: #FFF;
+    height: 300px;
+    margin-top: 5%;
 }
 
-.project-name{
+.project-titles{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.project-subtitle{
+    color: #FCA311;
     font-size: 18px;
-    font-weight: 600;
-    padding-left: 10px;
-    margin-top: 5px;
-    color: #000;
-    transition: color 0.3s ease;
+    margin-top: 10px;
 }
 
-.project-class{
+.description{
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+
+.features{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    /* background-color: #FCA311; */
+    margin-top: 20px;
+}
+
+.feature-title{
+    font-weight: 600;
+}
+
+
+.moree{
+    margin-top: 5px;
+    width: 20%;
+    padding: 5px;
     font-size: 16px;
-    font-weight: 600;
-    padding-left: 10px;
-    margin-top: 5px;
-    color: #4b4b4b;
-    transition: color 0.3s ease;
+    height: auto;
+    background-color: #FCA311;
+    cursor: pointer;
 }
 
-.work-done:hover{
-    background-color: #4b4b4b;
+.moree span{
+    margin-left: 20px;
 }
 
-.work-done:hover .project-name,
-.work-done:hover .project-class {
-    color: #fff; 
+.moree a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
 }
+

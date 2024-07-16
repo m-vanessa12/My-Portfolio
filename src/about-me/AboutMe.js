@@ -46,7 +46,7 @@ const AboutMe = () => {
                         </div>
                         
                         <div className="my-socials">
-                            <a href="" target='_blank'>
+                            <a href="https://www.instagram.com/empower_youths_voices?igsh=amloYm9zeDhidnh6&utm_source=qr" target='_blank'>
                            <FontAwesomeIcon icon={ faInstagram} style={{ width: '25px', height: '32px', padding: '10px', color: '#FCA311'}} />
                            </a>
                         </div>

@@ -1,6 +1,4 @@
 import '../experience/experience.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const Experience = () => {
     return ( 
@@ -14,7 +12,6 @@ const Experience = () => {
                 <div className="exp-btn">
                     <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target='_blanket'>
                     <button>Check My Resume
-                       <FontAwesomeIcon icon={faEnvelope} style={{ width: '20px', height: '30px', margin: '5px', color: '#FFF'}} />
                     </button></a></div>              
              </div>
      );

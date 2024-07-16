@@ -13,6 +13,7 @@ const HeroSection = () => {
                 <div className="names">Vanessa Mukamanzi</div>
                 <div className="title">UI/UX designer</div>
                 <div className="other-roles">Front-End Developer/Graphic Designer</div>
+                
                 <div className="more">
                     
                     <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target="_blank">

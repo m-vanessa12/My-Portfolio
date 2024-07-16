@@ -1,6 +1,7 @@
 import '../projects/work.css';
-import house from '../img/house.png';
-import diabetes  from '../img/diabetes1.png';
+import house from '../img/house_keeping.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons';
 
 
 const Projects = () => {
@@ -10,30 +11,25 @@ const Projects = () => {
             <div className="work-subtitle">Get to access my latest project</div>
             <div className="work-display">
                 <div className="work-done">
-                    <div className="project-image-container">
-                        <img src={house} alt='House keeping UI/UX app' className='project-image'/>
-                    </div>
-                    <div className="project-name">House Keeping App</div>
-                    <div className="project-class">UI/UX</div>
+                    <img src={house} alt="house keeping app" />
                 </div>
-
-                <div className="work-done">
-                   <div className="project-image-container">
-                        <img src={house} alt='House keeping UI/UX app' className='project-image'/>
-                    </div>
-                    <div className="project-name">House Keeping App</div>
-                    <div className="project-class">UI/UX</div>
-
+                <div className="work-description">
+                    <div className="project-titles">House Keeping App</div>
+                    <div className="project-subtitle">UX/UI Project</div>
+                    <div className="description">The Housekeeping and Laundry Booking App is a user-friendly platform that simplifies booking professional 
+                        housekeeping and laundry services, whether for one-time deep cleaning, regular house maintenance, or laundry needs.</div>
+                        <div className="features">
+                            <span className='feature-title'>Features:</span>
+                            <span className='features-list'>Laundry Booking, House Keeping Services</span>
+                        </div>
+                    <div className="moree">
+                        <a href="https://www.figma.com/design/JIPhgo8UnCWpUhNlJAwTWp/House-Keeping-Application?node-id=0-1&t=A6XpDzmiNMEfbFJl-0" target='_blank'>
+                        <span>Full project</span>
+                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '15px', marginTop: '5px'}} />
+                        </a>
+                        </div>
                 </div>
-
-                <div className="work-done">
-                   <div className="project-image-container">
-                        <img src={diabetes} alt='Diabetes prediction UI/UX app' className='project-image'/>
-                    </div>
-                    <div className="project-name">Diabetes Prediction App</div>
-                    <div className="project-class">UI/UX</div>
-
-                </div>
+               
 
             </div>
         </div>
