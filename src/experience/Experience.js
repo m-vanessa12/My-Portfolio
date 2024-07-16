@@ -2,7 +2,14 @@ import '../experience/experience.css'
 
 const Experience = () => {
     return ( 
-        <div className="experience"></div>
+        <div className="experience" id='experience'>
+            <div className="experience-title">Experience</div>
+            <div className="experience-subtitle">I'm searching for fresh opportunities right now. 
+                Check out some of my experience and work! Please get in touch with me if you appreciate 
+                what you see and need help with a project. I'll reply to you soon!</div>
+             <div className="exp-btn">My Resume</div>
+                
+        </div>
      );
 }
  

@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 2px  solid #f7921e48; 
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
     background-color: #fff;
     
 
@@ -23,7 +23,7 @@
 
 .contact-content{
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     width: 45%;
     height: auto;
     padding: 5px;
@@ -86,9 +86,9 @@
 .inputs-field input {
     margin-left: 20px;
     width: 90%;
-    height: 35px;
+    height: 30px;
     padding: 5px;
-    font-size: 18px;
+    font-size: 17px;
     border: none;
     outline: none;
 }
@@ -96,7 +96,7 @@
 .inputs-field textarea{
     margin-left: 20px;
     width: 90%;
-    height: 145px;
+    height: 125px;
     padding: 5px;
     font-size: 18px;
     border: none;
