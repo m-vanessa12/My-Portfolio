@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <div className="other-roles">Front-End Developer/Graphic Designer</div>
                 <div className="more">
                     
-                    <a href="https://drive.google.com/file/d/1qM8Q4Zpn01gljaRhVR27ogXbmk-UBZ6L/view?usp=sharing/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target="_blank">
                        <div className="my-resume">Resume</div>
                     </a>
 

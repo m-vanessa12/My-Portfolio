@@ -1,4 +1,6 @@
-import '../experience/experience.css'
+import '../experience/experience.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const Experience = () => {
     return ( 
@@ -7,9 +9,14 @@ const Experience = () => {
             <div className="experience-subtitle">I'm searching for fresh opportunities right now. 
                 Check out some of my experience and work! Please get in touch with me if you appreciate 
                 what you see and need help with a project. I'll reply to you soon!</div>
-             <div className="exp-btn">My Resume</div>
+
                 
-        </div>
+                <div className="exp-btn">
+                    <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target='_blanket'>
+                    <button>Check My Resume
+                       <FontAwesomeIcon icon={faEnvelope} style={{ width: '20px', height: '30px', margin: '5px', color: '#FFF'}} />
+                    </button></a></div>              
+             </div>
      );
 }
  

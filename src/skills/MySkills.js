@@ -7,6 +7,7 @@ import css from '../img/css.png';
 import html from '../img/html.png';
 import react from '../img/react.png';
 import tailwind from '../img/tailwind.png'
+import wordpress from '../img/wordpress.png'
 
 const Skills = () => {
     return ( 
@@ -62,13 +63,19 @@ const Skills = () => {
                     <div className="tool">
                         <img src={react} alt="react logo" />
                     </div>
-                    <div className="tool-name">css</div>
+                    <div className="tool-name">ReactJs</div>
                 </div>
                 <div className="cards">
                     <div className="tool">
                         <img src={tailwind} alt="tailwind logo" />
                     </div>
-                    <div className="tool-name">css</div>
+                    <div className="tool-name">TailWind css</div>
+                </div>
+                <div className="cards">
+                    <div className="tool">
+                        <img src={wordpress} alt="tailwind logo" />
+                    </div>
+                    <div className="tool-name">WordPress</div>
                 </div>
 
             </div>

@@ -30,16 +30,35 @@
 }
 
 
+.experience a{
+    text-decoration: none;
+}
+
+
 .exp-btn{
     width: 20%;
     height: 50px;
     background-color: #FCA311;
-    color: #fff;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
+
+.exp-btn button{
+    border: none;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    background-color: #FCA311;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* .exp-btn:hover{
+    background-color: #fff;
+    color: #FCA311;
+} */

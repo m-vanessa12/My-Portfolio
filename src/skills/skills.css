@@ -43,8 +43,8 @@
 
 
 .cards{
-    width: 15%;
-    height: 150px;
+    width: 14%;
+    height: 120px;
     background-color: #fff;
     border-radius: 7px;
     display: flex;
@@ -56,8 +56,8 @@
 
 .tool{
     background-color: #fff;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
