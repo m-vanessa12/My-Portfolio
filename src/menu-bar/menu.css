@@ -59,6 +59,10 @@
     font-weight: 600;
 }
 
+.menu-icon {
+    display: none;
+  }
+
 /* .resume{
     margin-left: 20px;
     width: 130px;
@@ -77,3 +81,39 @@
     color: #FCA311;
     border: 1px solid #FCA311;
 } */
+
+
+@media (max-width: 768px){
+
+    .menu{
+        display: none;
+       flex-direction: column;
+       flex-direction: column;
+       width: 100%;
+       text-align: center;
+       background-color: #fff;
+       position: absolute;
+       top: 80px;
+       left: 0;
+    }
+
+    .menu.show {
+        display: flex;
+      }
+
+      .menu ul {
+        flex-direction: column;
+      }
+    
+      .menu li {
+        margin: 10px 0;
+      }
+    
+      .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        margin-right: 40px;
+      }
+    
+}
