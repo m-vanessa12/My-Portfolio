@@ -119,3 +119,17 @@
     text-decoration: none;
 }
 
+
+.work-done2{
+    flex: 1;
+    height: auto;
+    overflow: hidden;
+    background-color: #FFF;
+    margin-left: -5%;
+}
+
+.work-done2 img{
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
