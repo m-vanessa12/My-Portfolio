@@ -9,6 +9,7 @@ const Projects = () => {
         <div className="project" id='project'>
             <div className="work-title">Portfolio</div>
             <div className="work-subtitle">Get to access my latest project</div>
+            <div className="about-line"></div>
             <div className="work-display">
                 <div className="work-done">
                     <img src={house} alt="house keeping app" />
