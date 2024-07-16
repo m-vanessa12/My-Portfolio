@@ -12,6 +12,7 @@ const AboutMe = () => {
 
             <div className="about-title">About Me</div>
             <div className="about-subtitle">Get to know me better. There is all about me</div>
+            <div className="about-line"></div>
              
              <div className="about-info">
 

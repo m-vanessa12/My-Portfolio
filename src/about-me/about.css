@@ -32,6 +32,14 @@
     text-align: center;
 }
 
+.about-line{
+    width: 7%;
+    height: 5px;
+    background-color: #FCA311;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
 .about-info{
     display: flex;
     flex-direction: row;
