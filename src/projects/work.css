@@ -42,6 +42,7 @@
     height: auto;
     margin-top: 5%  auto;
     display: flex;
+    flex-direction: row;
     gap: 20px;
     padding-bottom: 10px;
 }
@@ -64,7 +65,7 @@
     flex: 1.5;
     padding: 10px;
     background-color: #FFF;
-    height: 300px;
+    height: auto;
     margin-top: 5%;
 }
 
@@ -132,4 +133,41 @@
    width: 100%;
    height: auto;
    object-fit: cover;
+}
+
+@media (max-width: 780px) {
+
+
+    .work-title{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .work-subtitle{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .work-display{
+        /* background-color: #FCA311; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-description{
+        margin-top: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .moree{
+        width: 35%;
+    }
+
+
+    
 }
