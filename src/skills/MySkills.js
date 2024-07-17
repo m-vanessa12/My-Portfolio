@@ -12,7 +12,7 @@ import wordpress from '../img/wordpress.png'
 const Skills = () => {
     return ( 
         <div className="skills-section" id='skills'>
-            <div className="skills-title">Services and Technologies</div>
+            <div className="skills-title">Services & Technologies</div>
             <div className="skills-subtitle"> I am a UX/UI designer, a graphic designer and a front-end developer looking for a job. 
                 available for doing remote  or in-person opportunities. .</div>
 
