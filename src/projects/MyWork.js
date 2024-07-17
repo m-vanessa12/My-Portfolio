@@ -38,13 +38,14 @@ const Projects = () => {
             <div className="work-display">
 
                 <div className="work-description">
-                    <div className="project-titles">House Keeping App</div>
+                    <div className="project-titles">Diabetes Prediction App</div>
                     <div className="project-subtitle">UX/UI Project</div>
-                    <div className="description">The Housekeeping and Laundry Booking App is a user-friendly platform that simplifies booking professional 
-                        housekeeping and laundry services, whether for one-time deep cleaning, regular house maintenance, or laundry needs.</div>
+                    <div className="description">The Diabetes Predictor App, this in app that uses machine learning to analyze health metrics 
+                        like blood glucose levels, BMI, age, and family history, providing early warnings and personalized 
+                        insights to help users manage their health and prevent diabetes</div>
                         <div className="features">
                             <span className='feature-title'>Features:</span>
-                            <span className='features-list'>Laundry Booking, House Keeping Services</span>
+                            <span className='features-list'>Diabetes Predictor</span>
                         </div>
                     <div className="moree">
                         <a href="https://www.figma.com/design/JIPhgo8UnCWpUhNlJAwTWp/House-Keeping-Application?node-id=0-1&t=A6XpDzmiNMEfbFJl-0" target='_blank'>
