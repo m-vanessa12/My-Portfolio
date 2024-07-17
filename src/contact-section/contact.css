@@ -1,13 +1,13 @@
 .my-contact{
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
     background-color: #fff;
+    padding-bottom: 15px;
     
-
 }
 
 .contact-title{
@@ -24,7 +24,7 @@
 .contact-content{
     margin-top: 10px;
     font-size: 20px;
-    width: 45%;
+    width: 82%;
     height: auto;
     padding: 5px;
     line-height: 38px;
@@ -33,7 +33,7 @@
 
 .contact-info{
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
     height: 400px;
     /* background-color: #ccc; */
     display: flex;
@@ -134,4 +134,54 @@
 
 .btn:hover{
     background-color: #000;
+}
+
+
+@media (max-width: 780px) {
+
+    .my-contact{
+        height: auto;
+    }
+
+    .contact-content{
+        width: 82%;
+        height: auto;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact-info1{
+        width: 100%;
+        margin-left: 0;
+        /* background-color: #FCA311; */
+        height: auto;
+    }
+
+    .contact-details{
+        font-size: 18px;
+        height: auto;
+        
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+    }
+
+    .inputs-submit{
+        width: 77%;
+        font-size: 18px;
+    }
+
+
+
+
+    
 }
