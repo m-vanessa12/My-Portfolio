@@ -48,7 +48,7 @@ const Projects = () => {
                             <span className='features-list'>Diabetes Predictor</span>
                         </div>
                     <div className="moree">
-                        <a href="https://www.figma.com/design/JIPhgo8UnCWpUhNlJAwTWp/House-Keeping-Application?node-id=0-1&t=A6XpDzmiNMEfbFJl-0" target='_blank'>
+                        <a href="https://www.figma.com/design/ZaEr0r1mSkKfyyhERdZGc0/Diabetes-Predictor?node-id=0-1&t=ZSw9DWYY6NVdnnaO-0" target='_blank'>
                         <span>Full project</span>
                         <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '15px', marginTop: '5px'}} />
                         </a>
