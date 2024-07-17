@@ -62,3 +62,11 @@
     background-color: #fff;
     color: #FCA311;
 } */
+
+
+@media (max-width: 780px) {
+    .experience{
+        background-color: #FCA311;
+    }
+    
+}

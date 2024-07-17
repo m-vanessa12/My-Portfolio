@@ -45,7 +45,7 @@
     flex-direction: row;
     /* background-color: #ccc; */
     width: 90%;
-    height: 500px;
+    height: auto;
     margin-top: 20px;
 }
 .about-profile{
@@ -110,3 +110,63 @@
     border-radius: 50px;
     margin-top: 10px;
 } */
+
+
+@media (max-width: 780px) {
+    .about-me{
+        width: 100%;
+        height: auto;
+        /* background-color: #FCA311; */
+    }
+
+    .about-title{
+        height: auto;
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .about-subtitle{
+        width: 85%;
+    }
+
+    .about-line{
+        width: 15%;
+    }
+
+    .about-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-profile{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .about-me-content{
+        width: 100%;
+        height: auto;
+    }
+
+    .my-names{
+        text-align: center;
+    }
+
+    .about-descriptiom{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .social-media{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+
+    }
+
+
+    
+}
