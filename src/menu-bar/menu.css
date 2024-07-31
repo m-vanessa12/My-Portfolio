@@ -32,6 +32,7 @@
     width: 60%;
     height: auto;
     margin-left: 20%;
+    display: flex;
 }
 
 .menu ul{
@@ -61,6 +62,8 @@
 
 .menu-icon {
     display: none;
+    font-size: 24px;
+    cursor: pointer;
   }
 
 /* .resume{
@@ -94,6 +97,7 @@
        position: absolute;
        top: 80px;
        left: 0;
+       padding: 10px;
     }
 
     .logo{
@@ -103,21 +107,26 @@
 
     .menu.show {
         display: flex;
+        background-color: #FCA311;
+        width: 70%;
       }
 
       .menu ul {
+        display: flex;
         flex-direction: column;
       }
     
       .menu li {
         margin: 10px 0;
+        width: 40%;
+        background-color: aqua;
       }
     
       .menu-icon {
         display: block;
-        font-size: 24px;
-        cursor: pointer;
-        margin-right: 40px;
+        margin-left: 35%;
+        margin-top: 5%;
+
       }
     
 }
