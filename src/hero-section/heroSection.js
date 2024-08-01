@@ -16,7 +16,7 @@ const HeroSection = () => {
                 
                 <div className="more">
                     
-                    <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1lZp29Vr7fQp3iKR8GTKc2MMXLJfdYmy1/view?usp=sharing" target="_blank">
                        <div className="my-resume">Resume</div>
                     </a>
 
