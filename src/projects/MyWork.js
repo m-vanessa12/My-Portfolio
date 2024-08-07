@@ -65,16 +65,17 @@ const Projects = () => {
 
             <div className="work-display">
                 <div className="work-done">
-                    <img src={mentorship} alt="house keeping app" />
+                    <img src={mentorship} alt="Mentor.Me platform" />
                 </div>
                 <div className="work-description">
-                    <div className="project-titles">House Keeping App</div>
+                    <div className="project-titles">Mentor.Me Platform</div>
                     <div className="project-subtitle">UX/UI Project</div>
-                    <div className="description">The Housekeeping and Laundry Booking App is a user-friendly platform that simplifies booking professional 
-                        housekeeping and laundry services, whether for one-time deep cleaning, regular house maintenance, or laundry needs.</div>
+                    <div className="description">Mentor.Me platform, is a Women-to-Women mentorship platform aims to connect young from university and successful Women
+                        holding different roles in different fields. These young women are women who are being prepared for transitioning from university life to professional life. 
+                    </div>
                         <div className="features">
                             <span className='feature-title'>Features:</span>
-                            <span className='features-list'>Laundry Booking, House Keeping Services</span>
+                            <span className='features-list'>Discussion Forum, Mentorship, Resources, Profiles</span>
                         </div>
                     <div className="moree">
                         <a href="https://www.figma.com/design/txsi0ILYuidP3obOfFLRUl/Women-Mentorship-Platform?node-id=0-1&t=Ap3HTwZ6r5bbty9S-1" target='_blank'>
