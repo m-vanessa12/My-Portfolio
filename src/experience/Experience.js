@@ -10,8 +10,8 @@ const Experience = () => {
 
                 
                 <div className="exp-btn">
-                    <a href="https://drive.google.com/file/d/1xXYc3EezeM25xloNC2FFM_BKkpJCdqub/view?usp=sharing" target='_blanket'>
-                    <button>Check My Resume
+                    <a href="https://docs.google.com/document/d/1CIMmGM7Ah4hskYzartG_RVA6hKsAMVIPc-DnW0ITLeg/edit?usp=drive_link" target='_blanket'>
+                    <button>Check More Projects
                     </button></a></div>              
              </div>
      );
