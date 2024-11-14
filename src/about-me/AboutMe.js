@@ -1,10 +1,9 @@
-import './about.css';
-import profile from '../img/profile png.png';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import profile from '../img/profile png.png';
+import './about.css';
 // import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
     return ( 
@@ -22,7 +21,7 @@ const AboutMe = () => {
                 <div className="about-me-content">
                     <div className="my-names">Vanessa Mukamanzi</div>
                     <div className="about-descriptiom">
-                        <div className='part1'>I am a UX/UI Designer with over two years of experience in user-centered design and front-end development. 
+                        <div className='part1'>I am a UX/UI Designer and Front-End Developer with over two years of experience in user-centered design and front-end development. 
                             I hold a BSc in Computer Science from African Leadership University, specializing in 
                             creating intuitive, user-friendly interfaces. I aim to leverage my technical expertise and innovative approach to enhance digital interaction through work.</div>
                         

@@ -1,8 +1,8 @@
-import { HashLink as Link } from 'react-router-hash-link';
-import './hero.css';
-import profile from '../img/profile png.png';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight} from '@fortawesome/free-solid-svg-icons';
+import { HashLink as Link } from 'react-router-hash-link';
+import profile from '../img/profile png.png';
+import './hero.css';
 
 const HeroSection = () => {
     return ( 
@@ -16,7 +16,7 @@ const HeroSection = () => {
                 
                 <div className="more">
                     
-                    <a href="https://drive.google.com/file/d/1lZp29Vr7fQp3iKR8GTKc2MMXLJfdYmy1/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/18xGwwQXo5kFdAQi6VYv80L_J1W70H90V/view?usp=sharing" target="_blank">
                        <div className="my-resume">Resume</div>
                     </a>
 
