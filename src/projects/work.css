@@ -65,8 +65,18 @@
     flex: 1.5;
     padding: 10px;
     background-color: #FFF;
-    height: auto;
+    height: 300px;
     margin-top: 5%;
+}
+
+/* --------FOR STEPUP-HER-------- */
+
+.work-description2{  
+    flex: 1.5;
+    padding: 10px;
+    background-color: #FFF;
+    height: 250px;
+    margin-top: 1%;
 }
 
 .project-titles{
@@ -118,7 +128,7 @@
     color: #fff;
     font-size: 16px;
     text-decoration: none;
-    margin-bottom: -5%;
+    margin-top: -5%;
 }
 
 
@@ -150,8 +160,7 @@
         font-size: 18px;
     }
 
-    .work-display{
-        /* background-color: #FCA311; */
+    /* .work-display{
         width: 100%;
         height: auto;
         display: flex;
@@ -167,7 +176,7 @@
 
     .moree{
         width: 35%;
-    }
+    } */
 
 
     

@@ -36,7 +36,7 @@ const Projects = () => {
 
             </div>
 
-            <div className="work-display">
+            {/* <div className="work-display">
 
                 <div className="work-description">
                     <div className="project-titles">Diabetes Prediction App</div>
@@ -60,14 +60,14 @@ const Projects = () => {
                     <img src={diabites_predictor} alt="house keeping app" />
                 </div>        
 
-            </div>
+            </div> */}
 
 
             <div className="work-display">
                 <div className="work-done">
                     <img src={mentorship} alt="Mentor.Me platform" />
                 </div>
-                <div className="work-description">
+                <div className="work-description2">
                     <div className="project-titles">StepUp.Her Platform</div>
                     <div className="project-subtitle">UX/UI Project</div>
                     <div className="description">StepUp.Her platform, is a Women-to-Women mentorship platform aims to connect young from university and successful Women
