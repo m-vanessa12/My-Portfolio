@@ -80,7 +80,7 @@ const Projects = () => {
                     <div className="moree">
                         <a href="https://www.figma.com/proto/DXljKUM0VLfwCAYqsDtvWQ/Mentorship-Platform?node-id=123-1446&t=Bh7zgPRLSzmDFWrX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" target='_blank'>
                         <span>Full project</span>
-                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '28px', marginTop: '2px', backgroundColor: '#000'}} />
+                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '28px', marginTop: '2px'}} />
                         </a>
                         </div>
                   </div>          
