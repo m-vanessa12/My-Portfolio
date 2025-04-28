@@ -1,9 +1,9 @@
-import '../projects/work.css';
-import house from '../img/house_keeping.png';
-import diabites_predictor from '../img/diabete_predictor.png';
-import mentorship from '../img/mentor_me.png';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons';
+import diabites_predictor from '../img/diabete_predictor.png';
+import house from '../img/house_keeping.png';
+import mentorship from '../img/mentor_me.png';
+import '../projects/work.css';
 
 
 const Projects = () => {
@@ -68,19 +68,19 @@ const Projects = () => {
                     <img src={mentorship} alt="Mentor.Me platform" />
                 </div>
                 <div className="work-description">
-                    <div className="project-titles">Mentor.Me Platform</div>
+                    <div className="project-titles">StepUp.Her Platform</div>
                     <div className="project-subtitle">UX/UI Project</div>
-                    <div className="description">Mentor.Me platform, is a Women-to-Women mentorship platform aims to connect young from university and successful Women
+                    <div className="description">StepUp.Her platform, is a Women-to-Women mentorship platform aims to connect young from university and successful Women
                         holding different roles in different fields. These young women are women who are being prepared for transitioning from university life to professional life. 
                     </div>
                         <div className="features">
                             <span className='feature-title'>Features:</span>
-                            <span className='features-list'>Discussion Forum, Mentorship, Resources, Profiles</span>
+                            <span className='features-list'> Discussion Forum, Mentorship, Resources, Profiles</span>
                         </div>
                     <div className="moree">
-                        <a href="https://www.figma.com/design/txsi0ILYuidP3obOfFLRUl/Women-Mentorship-Platform?node-id=0-1&t=Ap3HTwZ6r5bbty9S-1" target='_blank'>
+                        <a href="https://www.figma.com/proto/DXljKUM0VLfwCAYqsDtvWQ/Mentorship-Platform?node-id=123-1446&t=Bh7zgPRLSzmDFWrX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" target='_blank'>
                         <span>Full project</span>
-                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '15px', marginTop: '5px'}} />
+                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{ width: '18px', height: '25px', color: '#FFF', marginLeft : '28px', marginTop: '2px', backgroundColor: '#000'}} />
                         </a>
                         </div>
                   </div>          
